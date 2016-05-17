@@ -58,7 +58,9 @@ public class SeedQuerySpeechlet implements Speechlet {
             String parameter = intent.getSlot("ObjectType").getValue();
             return getSeedData("CountIntent", parameter);
         } else if ("GenomeIntent".equals(intent.getName())) {
-            String parameter = intent.getSlot("GenomeId").getValue();
+            String parameter = intent.getSlot("TaxonId").getValue();
+            String version = intent.getSlot("Version").getValue();
+            parameter += "." + version;
             return getSeedData("GenomeIntent", parameter);
         } else if ("AMAZON.HelpIntent".equals(intent.getName())) {
             String helpText = "To get genome data, use the genome ID, for example 'ask SEED about 83333.1'. To get counts, use the table name, for example 'ask SEED how many genomes'.";

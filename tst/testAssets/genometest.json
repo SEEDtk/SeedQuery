@@ -4,7 +4,7 @@
         "new": true,
         "sessionId": "3",
         "application": {
-            "applicationId": "amzn1.echo-sdk-ams.app.b70f7dc4-d79e-4a96-b02c-a1c68c3c365a"
+            "applicationId": "amzn1.echo-sdk-ams.app.d32becb3-600b-49d2-96ed-8cc2e7734ca8"
         },
         "attributes": {
         },
@@ -19,9 +19,13 @@
         "intent": {
             "name": "GenomeIntent",
             "slots": {
-                "GenomeId": {
-                    "name": "GenomeId",
-                    "value": "100226.1"
+                "TaxonId": {
+                    "name": "TaxonId",
+                    "value": "100226"
+                },
+                "Version": {
+                    "name": "Version",
+                    "value": "1"
                 }
             }
         }

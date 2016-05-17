@@ -5,4 +5,7 @@ CountIntent how many {ObjectType} we have
 CountIntent how many {ObjectType} are in the database
 CountIntent how many {ObjectType}
 CountIntent the number of {ObjectType}
-GenomeIntent about {GenomeId}
+GenomeIntent about {TaxonId} dot {Version}
+GenomeIntent about {TaxonId} point {Version}
+GenomeIntent about genome {TaxonId} dot {Version}
+GenomeIntent about genome {TaxonId} point {Version}

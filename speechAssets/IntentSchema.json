@@ -4,7 +4,11 @@
             "intent": "GenomeIntent",
             "slots": [
                 {
-                    "name": "GenomeId",
+                    "name": "TaxonId",
+                    "type": "AMAZON.NUMBER"
+                },
+                {
+                    "name": "Version",
                     "type": "AMAZON.NUMBER"
                 }
             ]

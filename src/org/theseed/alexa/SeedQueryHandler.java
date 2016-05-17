@@ -27,7 +27,7 @@ public final class SeedQueryHandler extends SpeechletRequestStreamHandler implem
          * our special application ID
          */
         supportedApplicationIds = new HashSet<String>();
-        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.b70f7dc4-d79e-4a96-b02c-a1c68c3c365a");
+        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.d32becb3-600b-49d2-96ed-8cc2e7734ca8");
     }
 
     public SeedQueryHandler() {
