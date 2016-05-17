@@ -1,0 +1,31 @@
+{
+    "intents": [
+        {
+            "intent": "GenomeIntent",
+            "slots": [
+                {
+                    "name": "GenomeId",
+                    "type": "AMAZON.NUMBER"
+                }
+            ]
+        },
+        {
+            "intent": "CountIntent",
+            "slots": [
+                {
+                    "name": "ObjectType",
+                    "type": "LIST_OF_OBJECTS"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        }
+    ]
+}

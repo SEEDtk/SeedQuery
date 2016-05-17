@@ -1,0 +1,8 @@
+CountIntent how many {ObjectType} are there
+CountIntent how many {ObjectType} do we have
+CountIntent how many {ObjectType} there are
+CountIntent how many {ObjectType} we have
+CountIntent how many {ObjectType} are in the database
+CountIntent how many {ObjectType}
+CountIntent the number of {ObjectType}
+GenomeIntent about {GenomeId}

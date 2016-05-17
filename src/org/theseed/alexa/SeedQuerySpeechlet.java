@@ -46,10 +46,11 @@ public class SeedQuerySpeechlet implements Speechlet {
         log.info("onIntent requestId={}, sessionId={}, intent={}", request.getRequestId(), session.getSessionId(),
                 intent.getName());
 
-        if ("MyIntent".equals(intent.getName())) {
-            // TODO your first intent. compute a response
+        if ("CountIntent".equals(intent.getName())) {
+            // TODO count the object
             return null;
-
+        } else if ("GenomeIntent".equals(intent.getName())) {
+            // TODO get the genome
         } else if ("AMAZON.HelpIntent".equals(intent.getName())) {
             // TODO give the user a hint
             return null;
@@ -63,6 +64,7 @@ public class SeedQuerySpeechlet implements Speechlet {
         } else {
             throw new IllegalArgumentException("Unrecognized intent: " + intent.getName());
         }
+        return null;
     }
 
     @Override
