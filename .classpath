@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="com.amazonaws.eclipse.lambda.AWS_LAMBDA_JAVA_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="src" path="tst"/>
+	<classpathentry kind="con" path="com.amazonaws.eclipse.sdk.AWS_JAVA_SDK"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2.jar" sourcepath="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-simple-1.7.21.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
