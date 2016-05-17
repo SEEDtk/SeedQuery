@@ -9,5 +9,7 @@
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2.jar" sourcepath="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-api-1.7.21.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-simple-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

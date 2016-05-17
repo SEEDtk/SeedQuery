@@ -10,7 +10,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
-import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
@@ -28,7 +27,7 @@ public final class SeedQueryHandler extends SpeechletRequestStreamHandler implem
          * our special application ID
          */
         supportedApplicationIds = new HashSet<String>();
-        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.XXXX"); // TODO replace the XXXs
+        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.b70f7dc4-d79e-4a96-b02c-a1c68c3c365a");
     }
 
     public SeedQueryHandler() {

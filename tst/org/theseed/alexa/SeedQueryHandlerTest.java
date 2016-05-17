@@ -1,44 +1,44 @@
 package org.theseed.alexa;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.amazonaws.services.lambda.runtime.Context;
 
+
 /**
  * A simple test harness for locally invoking your Lambda function handler.
  */
 public class SeedQueryHandlerTest {
 
-    private static String input;
+    private static SeedQueryHandler handler;
 
     @BeforeClass
     public static void createInput() throws IOException {
-        // TODO: set up your sample input object here.
-        input = null;
+        handler = new SeedQueryHandler();
     }
 
     private Context createContext() {
         TestContext ctx = new TestContext();
-
-        // TODO: customize your context here if needed.
-        ctx.setFunctionName("Your Function Name");
+        ctx.setFunctionName("SeedQuery");
 
         return ctx;
     }
 
     @Test
     public void testSeedQueryHandler() {
-        SeedQueryHandler handler = new SeedQueryHandler();
         Context ctx = createContext();
-
-        String output = handler.handleRequest(input, ctx);
-
-        // TODO: validate output here if needed.
-        if (output != null) {
-            System.out.println(output.toString());
+        try {
+            byte[] encoded = Files.readAllBytes(Paths.get("testAssets\\genometest.json"));
+            String inString = new String(encoded);
+            String outString = handler.handleRequest(inString, ctx);
+            System.out.println(outString);
+        } catch (IOException e) {
+            System.err.println("IO exception: " + e.getMessage());
         }
     }
 }
