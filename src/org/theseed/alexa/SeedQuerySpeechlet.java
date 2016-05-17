@@ -81,14 +81,14 @@ public class SeedQuerySpeechlet implements Speechlet {
     @Override
     public void onSessionEnded(final SessionEndedRequest request, final Session session) throws SpeechletException {
         log.info("onSessionEnded requestId={}, sessionId={}", request.getRequestId(), session.getSessionId());
-        // TODO any cleanup logic goes here
+        // any cleanup logic goes here
     }
 
     /**
      * Initializes the instance components.
      */
     private void initializeComponents() {
-        // TODO initialization common to all constructors
+        // initialization common to all constructors
     }
 
     /**
@@ -101,7 +101,7 @@ public class SeedQuerySpeechlet implements Speechlet {
     private SpeechletResponse getTellSpeechletResponse(String speechText) {
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
-        card.setTitle("Feed Tracker");
+        card.setTitle("SEED Information");
         card.setContent(speechText);
 
         // Create the plain text output.
