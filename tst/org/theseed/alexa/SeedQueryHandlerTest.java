@@ -41,4 +41,20 @@ public class SeedQueryHandlerTest {
             System.err.println("IO exception: " + e.getMessage());
         }
     }
+
+
+    @Test
+    public void testSeedPegQueryHandler() {
+        Context ctx = createContext();
+        try {
+            byte[] encoded = Files.readAllBytes(Paths.get("testAssets\\pegtest.json"));
+            String inString = new String(encoded);
+            String outString = handler.handleRequest(inString, ctx);
+            System.out.println(outString);
+        } catch (IOException e) {
+            System.err.println("IO exception: " + e.getMessage());
+        }
+    }
+
+
 }

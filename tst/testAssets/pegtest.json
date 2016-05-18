@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "3",
+        "application": {
+            "applicationId": "amzn1.echo-sdk-ams.app.d32becb3-600b-49d2-96ed-8cc2e7734ca8"
+        },
+        "attributes": {
+        },
+        "user": {
+            "userId": "user-1-test"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "3",
+        "timestamp": "2016-05-15T15:25:06Z",
+        "intent": {
+            "name": "PegIntent",
+            "slots": {
+                "TaxonId": {
+                    "name": "TaxonId",
+                    "value": "100226"
+                },
+                "Version": {
+                    "name": "Version",
+                    "value": "1"
+                },
+                "FeatureType": {
+                    "name": "FeatureType",
+                    "value": "peg"
+                },
+                "FeatureNumber": {
+                    "name": "FeatureNumber",
+                    "value": "102"
+                }
+            }
+        }
+    }
+}

@@ -57,6 +57,13 @@ public class SeedQuerySpeechlet implements Speechlet {
         if ("CountIntent".equals(intent.getName())) {
             String parameter = intent.getSlot("ObjectType").getValue();
             return getSeedData("CountIntent", parameter);
+        } else if ("PegIntent".equals(intent.getName())) {
+            String genome = intent.getSlot("TaxonId").getValue();
+            String version = intent.getSlot("Version").getValue();
+            String num = intent.getSlot("FeatureNumber").getValue();
+            String ftype = intent.getSlot("FeatureType").getValue();
+            String parameter = "fig|" + genome + "." + version + "." + ftype + "." + num;
+            return getSeedData("PegIntent", parameter);
         } else if ("GenomeIntent".equals(intent.getName())) {
             String parameter = intent.getSlot("TaxonId").getValue();
             String version = intent.getSlot("Version").getValue();

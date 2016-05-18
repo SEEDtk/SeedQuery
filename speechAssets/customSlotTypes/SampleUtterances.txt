@@ -9,3 +9,9 @@ GenomeIntent about {TaxonId} dot {Version}
 GenomeIntent about {TaxonId} point {Version}
 GenomeIntent about genome {TaxonId} dot {Version}
 GenomeIntent about genome {TaxonId} point {Version}
+PegIntent about {FeatureType} number {FeatureNumber} of genome {TaxonId} dot {Version}
+PegIntent about {FeatureType} {FeatureNumber} of genome {TaxonId} dot {Version}
+PegIntent about {FeatureType} {FeatureNumber} of {TaxonId} dot {Version}
+PegIntent about {FeatureType} number {FeatureNumber} of genome {TaxonId} point {Version}
+PegIntent about {FeatureType} {FeatureNumber} of genome {TaxonId} point {Version}
+PegIntent about {FeatureType} {FeatureNumber} of {TaxonId} point {Version}

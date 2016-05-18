@@ -14,6 +14,27 @@
             ]
         },
         {
+            "intent": "PegIntent",
+            "slots": [
+                {
+                    "name": "FeatureType",
+                    "type": "LIST_OF_FEATURES"
+                },
+                {
+                    "name": "FeatureNumber",
+                    "type": "AMAZON.NUMBER"
+                },
+                {
+                    "name": "TaxonId",
+                    "type": "AMAZON.NUMBER"
+                },
+                {
+                    "name": "Version",
+                    "type": "AMAZON.NUMBER"
+                }
+            ]
+        },
+        {
             "intent": "CountIntent",
             "slots": [
                 {
