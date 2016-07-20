@@ -62,7 +62,10 @@ public class SeedQuerySpeechlet implements Speechlet {
             String version = intent.getSlot("Version").getValue();
             String num = intent.getSlot("FeatureNumber").getValue();
             String ftype = intent.getSlot("FeatureType").getValue();
-            if (ftype.equals("operon")) {
+            log.info("peg intent, type = {}, number = {}", ftype, num);
+            if (ftype == null || ftype.equals("protein")) {
+                ftype = "peg";
+            } else if (ftype.equals("operon")) {
                 ftype = "op";
             } else if (ftype.equals("prophage")) {
                 ftype = "pp";
