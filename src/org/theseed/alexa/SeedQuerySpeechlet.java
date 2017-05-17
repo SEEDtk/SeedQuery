@@ -191,7 +191,7 @@ public class SeedQuerySpeechlet implements Speechlet {
             case "acids" :
                 retVal = "An amino acid is a small molecule that forms part of a protein. Every known protein is " +
                         "a long sequence of amino acids. There are 22 known amino acids, of which 20 are used by " +
-                        "most life forms. Taurine, the key ingredient in modern energy drinks, is an amino acid. " +
+                        "most life forms. Phenylalanine, a common dietary supplement, is an amino acid. " +
                         "Your body knows how to make 11 of the amino acids, but you have to get the other 9 from " +
                         "the food you eat and the liquids you drink.";
                 break;
@@ -231,20 +231,10 @@ public class SeedQuerySpeechlet implements Speechlet {
             case "deoxyribonucleic acid" :
             case "nucleic acid" :
                 retVal = "DNA, or deoxyribonucleic acid, is a gigantic molecule consisting of two intertwined helixes. " +
-                         "Each helix is a chain of small molecules called nucleotides or bases. Every base is paired with " +
-                         "a matching base on the other helix. There are four base chemicals-- adenine, thyamine, guanine, " +
-                         "and cytosine. Adenine only matches thyamine, and guanine only matches cytosine. This means that " +
-                         "if you lose one helix, you can rebuild it from the other one. Chemicals called polymerases cause " +
-                         "the DNA helixes to separate and reform into two new DNA molecules identical to the first. This " +
-                         "is the basis of cell reproduction and it is why life on earth has lasted four billion years. " +
-                         "A human cell contains 46 DNA molecules containing over 3 billion base pairs, or 3000 megabases. " +
-                         "A typical bacterium contains 3 million base pairs, or 3 megabases. There are extremes, however. " +
-                         "The Buchnera, which is so tiny it cannot survive without a host, is only 140 thousand base pairs, " +
-                         "while the monstrous Streptomyces, which helps break down dead plants to form soil, is over 11 " +
-                         "million base pairs. The DNA of an organism is represented by a sequence of letters, one for each " +
-                         "base pair. A set of three base pairs next to each other is called a codon. Each codon describes an amino " +
-                         "acid. The sequence of codons determines the proteins manufactured in the cell, which in turn " +
-                         "determines what the cell does.";
+                         "Each helix is a chain of small molecules called nucleotides or bases. The nucleotides match up " +
+                         "with each other, so if you lose one helix, you can rebuild it from the other one. DNA is used " +
+                         "to create proteins from amino acids, and these proteins control all the chemical reactions in " +
+                         "living cells.";
                 break;
             case "RNA" :
             case "ribonucleic acid" :
