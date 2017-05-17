@@ -14,23 +14,11 @@
             ]
         },
         {
-            "intent": "PegIntent",
+            "intent": "TextIntent",
             "slots": [
                 {
-                    "name": "FeatureType",
-                    "type": "LIST_OF_FEATURES"
-                },
-                {
-                    "name": "FeatureNumber",
-                    "type": "AMAZON.NUMBER"
-                },
-                {
-                    "name": "TaxonId",
-                    "type": "AMAZON.NUMBER"
-                },
-                {
-                    "name": "Version",
-                    "type": "AMAZON.NUMBER"
+                    "name": "Term",
+                    "type": "LIST_OF_TERMS"
                 }
             ]
         },

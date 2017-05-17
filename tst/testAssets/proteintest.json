@@ -17,10 +17,10 @@
         "requestId": "3",
         "timestamp": "2016-05-15T15:25:06Z",
         "intent": {
-            "name": "TextIntent",
+            "name": "CountIntent",
             "slots": {
-                "Term": {
-                    "name": "Term",
+                "ObjectType": {
+                    "name": "ObjectType",
                     "value": "proteins"
                 }
             }

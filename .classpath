@@ -5,11 +5,35 @@
 	<classpathentry kind="con" path="com.amazonaws.eclipse.lambda.AWS_LAMBDA_JAVA_CLASSPATH_CONTAINER"/>
 	<classpathentry kind="src" path="tst"/>
 	<classpathentry kind="con" path="com.amazonaws.eclipse.sdk.AWS_JAVA_SDK"/>
-	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2.jar" sourcepath="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-api-1.7.21.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/slf4j-1.7.21/slf4j-simple-1.7.21.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/lib/aws-java-sdk-1.11.130.jar" sourcepath="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/lib/aws-java-sdk-1.11.130-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/lib/aws-java-sdk-1.11.130-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/aspectjrt-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/freemarker-2.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/ion-java-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/jackson-annotations-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/jackson-core-2.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/jackson-databind-2.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/jackson-dataformat-cbor-2.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/javax.mail-api-1.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/jmespath-java-1.11.130.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/joda-time-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/spring-beans-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/spring-context-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/spring-core-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/Documents/aws-java-sdk-1.11.130/third-party/lib/spring-test-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2.jar" sourcepath="C:/Users/Bruce/.m2/repository/com/amazon/alexa/alexa-skills-kit/1.1.2/alexa-skills-kit-1.1.2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
