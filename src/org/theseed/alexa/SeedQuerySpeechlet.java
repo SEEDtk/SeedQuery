@@ -296,9 +296,13 @@ public class SeedQuerySpeechlet implements Speechlet {
                 break;
             case "subsystem" :
             case "subsystems" :
+            case "sub systems" :
+            case "sub system" :
+            case "subsistence" :
                 retVal = "A subsystem is a group of roles that work together to perform a major process, such as building a " +
                         "cell wall, replicating the cell, converting sugar into energy, or protecting the cell from toxins." +
                         "In bio-informatics, susystems help us to figure out the functions of proteins.";
+                break;
             default:
                 retVal = "I am sorry. I don't understand the term " + term + ".";
             }

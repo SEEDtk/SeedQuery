@@ -1,4 +1,6 @@
 TextIntent to tell us about {Term}
+TextIntent what is {Term}
+TextIntent what is a {Term}
 CountIntent how many {ObjectType} are there
 CountIntent how many {ObjectType} do we have
 CountIntent how many {ObjectType} there are
